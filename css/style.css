@@ -1,0 +1,318 @@
+body{
+    height: 300vh;
+}
+img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+a{
+    text-decoration: none;
+    color: #424649;
+}
+header{
+    position: sticky;
+    top: -1rem;
+    z-index: 99;
+}
+.navbar{
+    position: absolute;
+    background-color: transparent !important;
+}
+.navbar .navbar-brand{
+    width: 150px;
+}
+.navbar .navbar-nav .nav-item .nav-link{
+    margin-left: 20px;
+    color: #ffffff !important;
+}
+.navbar .navbar-nav .nav-item .nav-link:hover{
+    color: #ffc107 !important;
+}
+.card{
+    border: none;
+    border-radius: 0;
+}
+.hero-banner{
+    height: 100vh;
+    position: relative;
+}
+.hero-banner .content{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+.hero-banner .content .title{
+    font-size: 80px;
+}
+section .container{
+    padding: 90px 0;
+}
+.service .container .content .icon{
+    width: 120px;
+    height: 120px;
+    font-size: 60px;
+    line-height: 120px;
+    text-align: center;
+    color: white;
+    border-radius: 100%;
+    background-color: #ffc107;
+}
+.portfolio .card .image{
+    width: 100%;
+    height: 260px;
+    position: relative;
+}
+.portfolio .card .image .overlay-hover{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    line-height: 260px;
+    position: absolute;
+    visibility: hidden;
+}
+.portfolio .card .image:hover .overlay-hover{
+    visibility: visible;
+    transition: 0.5s;
+    background-color: #e7b501df;
+}
+.modal{
+    padding: 18px !important;
+}
+.modal .modal-dialog{
+    border-radius: 10px !important;
+}
+.modal .modal-fullscreen-xxl-down{
+    width: auto;
+    height: auto;
+}
+.modal .modal-dialog .image{
+    max-width: 640px;
+    margin: 30px auto;
+}
+.modal .modal-footer{
+    margin-bottom: 100px;
+}
+.text{
+    font-size: 17px;
+    color: #6c757ddf;
+    font-weight: 500;
+}
+.about .timeline{
+    list-style-type: none;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+}
+.about .timeline .timeline-item{
+    width: 50%;
+    margin-bottom: 100px;
+    display: flex;
+    justify-content: right;
+}
+.about .timeline .timeline-item .content{
+    width: 320px;
+    text-align: right;
+    transform: translateX(30px);
+}
+.about .timeline .timeline-item .image{
+    width: 150px;
+    height: 150px;
+    border-radius: 100%;
+    outline: 8px solid #e9ecef;
+    transform: translateX(50%);
+}
+.about .timeline .timeline-item .image img,
+.team .container .card .image img{
+    border-radius: 100%;
+}
+.about .timeline .timeline-item .image::after{
+    content: '';
+    width: 2px;
+    height: 190px;
+    background-color: #e9ecef;
+    left: 50%;
+    top: calc(100% + 6px);
+    z-index: 99;
+    position: absolute;
+}
+.about .timeline .timeline-item:last-child .image::after{
+    display: none;
+}
+.about .timeline .timeline-item:last-child{
+    margin-bottom: 0;
+}
+.about .timeline .timeline-item .last-box{
+    background-color: gold;
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.about .timeline .timeline-item.right{
+    flex-direction: row-reverse;
+    justify-content: left;
+    margin-left: auto;
+}
+.about .timeline .timeline-item.right .image{
+    transform: translateX(-50%);
+}
+.about .timeline .timeline-item.right .content{
+    transform: translateX(-30px);
+    text-align: left;
+}
+.about .timeline .timeline-item .image .text{
+    width: 70px;
+    margin-top: 15px;
+    text-align: center;
+}
+.team .container .card{
+    background-color: transparent;
+}
+.team .container .card .image{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+    border-radius: 100%;
+    outline: 8px solid #e9ecef;
+}
+.team .container .card .icon .fa-brands,
+footer .icon .fa-brands{
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.93);
+}
+.team .container .card .icon .fa-brands:hover,
+footer .icon .fa-brands:hover{
+    background-color: #424649;
+}
+.scrolled{
+    transition: 0.4s;
+    background-color: black !important;
+}
+.btn-close{
+    background-image: url(../img/close-icon.svg);
+}
+
+@media (max-width: 1200px) {
+    .portfolio .container .row{
+        padding: 0 10px !important;
+    }
+    .about .container .timeline .timeline-item .image{
+        width: 130px;
+        height: 130px;
+    }
+    .about .container .timeline .timeline-item .image::after{
+        height: 210px;
+    }
+    .about .timeline .timeline-item .last-box{
+        font-size: 17px;
+    }
+}
+@media (max-width: 992px) {
+    header{
+        top: 0 !important;
+    }
+    .navbar{
+        background-color: black !important;
+    }
+    .navbar .container{
+        margin-top: 0 !important;
+    }
+    .about .container .timeline .timeline-item .image{
+        width: 90px;
+        height: 90px;
+        transform: translateX(75%);
+    }
+    .about .container .timeline .timeline-item.right .image{
+        transform: translateX(-25%);
+    }
+    .about .container .timeline .timeline-item.right .content{
+        transform: translateX(15px);
+    }
+    .about .container .timeline .timeline-item .image::after{
+        height: 310px;
+    }
+    .about .timeline .timeline-item .last-box{
+        font-size: 15px;
+    }
+    footer .container .row .col-md-12{
+        text-align: center;
+        padding-top: 0 !important;
+    }
+    footer .container .row .col-md-12.second{
+        padding: 10px 0 !important;
+    }
+    footer .container .row .col-md-12.second,
+    footer .container .row .col-md-12.third{
+        margin-top: 0;
+    }
+}
+@media (max-width: 768px) {
+    .about .container .timeline .timeline-item{
+        width: 100%;
+        flex-direction: row-reverse;
+        gap: 30px;
+    }
+    .about .container .timeline .timeline-item .content{
+        text-align: left;
+        width: calc(100% - 100px);
+    }
+    .about .container .timeline .timeline-item .image{
+        width: 70px;
+        height: 70px;
+        transform: translateX(-1px);
+    }
+    .about .container .timeline .timeline-item .content{
+        transform: translateX(-1px);
+    }
+    .about .timeline .timeline-item .last-box{
+        font-size: 12px;
+        margin-right: auto !important;
+    }
+    .about .container .timeline .timeline-item.right .image,
+    .about .container .timeline .timeline-item.right .content{
+        transform: translateX(0);
+    }
+    .about .container .timeline .timeline-item .image::after{
+        height: 235px;
+    }
+    .hero-banner .content .welcome{
+        font-size: 25px;
+    }
+    .hero-banner .content .title{
+        font-size: 55px;
+    }
+    .modal .modal-dialog .modal-body{
+        padding-inline: 30px;
+    }
+}
+@media (max-width: 576px) {
+    .portfolio .container{
+        padding: 90px 4rem !important;
+    }
+    section .container{
+        padding: 90px 1rem !important;
+    }
+    .hero-banner .content{
+        padding: 0 20px !important;
+    }
+    .about .container .timeline .timeline-item .image::after{
+        height: 260px;
+    }
+}

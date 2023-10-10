@@ -1,0 +1,553 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Homework 11</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg w-100">
+            <div class="container mt-3">
+                <a class="navbar-brand text-warning fs-3" href="#">
+                    <img src="img/navbar-logo.svg" alt="">
+                </a>
+                <button class="navbar-toggler text-white-50 fw-bold fs-6 border border-light-subtle py-2 px-3" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    Menu <i class="fa-solid fa-bars"></i>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#">SERVICES</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">PORTFOLIO</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">ABOUT</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">TEAM</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <section>
+        <div class="hero-banner">
+            <img src="img/header-bg.jpg" alt="" class="position-absolute">
+            <div class="content">
+                <div class="container text-white text-center">
+                    <h1 class="welcome fw-medium mb-4"><em>Welcom To Our Studio!</em></h1>
+                    <h1 class="mb-5 fw-bolder title">IT'S NICE TO MEET YOU</h1>
+                    <button type="button" class="btn btn-warning rounded py-4 px-5 text-white fw-medium fs-5">TELL ME MORE</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <main>
+        <section>
+            <div class="service">
+                <div class="container">
+                    <div class="row">
+                        <div class="title text-center">
+                            <h1 class="fw-bold">SERVICES</h1>
+                            <span class="lead"><em>Lorem ipsum dolor sit amet consectetur</em></span>
+                        </div>
+                    </div>
+                    <div class="row mt-4 content">
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="card p-4 text-center">
+                                <p class="icon m-auto mb-2"><i class="fa-solid fa-cart-shopping"></i></p>
+                                <h3 class="fw-bold mb-3">E-Commerce</h3>
+                                <p class="text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto harum ad vitae reiciendis? Fuga quos dolorum suscipit nihil mollitia,
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="card p-4 text-center">
+                                <p class="icon m-auto mb-2"><i class="fa-solid fa-laptop"></i></p>
+                                <h3 class="fw-bold mb-3">Responsive Design</h3>
+                                <p class="text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto harum ad vitae reiciendis? Fuga quos dolorum suscipit nihil mollitia,
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-4">
+                            <div class="card p-4 text-center">
+                                <p class="icon m-auto mb-2"><i class="fa-solid fa-unlock-keyhole"></i></p>
+                                <h3 class="fw-bold mb-3">Web Security</h3>
+                                <p class="text">
+                                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Iusto harum ad vitae reiciendis? Fuga quos dolorum suscipit nihil mollitia,
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="portfolio bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="title text-center">
+                            <h1 class="fw-bold">PORTFOLIO</h1>
+                            <span class="lead"><em>Lorem ipsum dolor sit amet consectetur</em></span>
+                        </div>
+                    </div>
+                    <div class="row mt-4 content g-4">
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="card">
+                                <div class="image">
+                                    <a href="#hoverModal1" data-bs-toggle="modal" role="button" class="overlay-hover">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
+                                    <img src="img/portfolio/1.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <h4 class="fw-bold mb-0">Threads</h4>
+                                    <span><em>Illustration</em></span>
+                                </div>
+                            </div>
+                            <!-- modal -->
+                            <div class="modal fade" id="hoverModal1" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-fullscreen-xxl-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header border-bottom-0">
+                                            <button type="button" class="btn-close fs-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row title text-center">
+                                                <h1 class="text-uppercase fw-bolder">Project Name</h1>
+                                                <span class="lead"><em>Lorem ipsum dolor sit amet consectetur</em></span>
+                                            </div>
+                                            <div class="image">
+                                                <img src="img/portfolio/1.jpg" alt="">
+                                            </div>
+                                            <p class="text col-7 m-auto text-center">
+                                                Use this area to describe your projects. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate harum, adipisicing elit. Voluptate harum, sit quibusdam mollitia doloribus laborum aliquam velit praesentium maxime iusto ex. Repudiandae deserunt rem aliquid eligendi. Reiciendis vero ipsa ea.
+                                            </p>
+                                            <div class="mt-4 text-center">
+                                                <p class="mb-1"><span class="fw-bolder">Client:</span> Threads</p>
+                                                <span><span class="fw-bolder">Category:</span> Illustration</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer border-top-0 mt-3">
+                                            <button type="button" class="btn px-5 py-3 btn-warning text-white m-auto" data-bs-dismiss="modal">X <span class="fw-bolder">CLOSE PROJECT</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="card text-center">
+                                <div class="image">
+                                    <a href="#hoverModal2" data-bs-toggle="modal" role="button" class="overlay-hover">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
+                                    <img src="img/portfolio/2.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <h4 class="fw-bold mb-0">Threads</h4>
+                                    <span><em>Illustration</em></span>
+                                </div>
+                            </div>
+                            <!-- modal -->
+                            <div class="modal fade" id="hoverModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-fullscreen-xxl-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header border-bottom-0">
+                                            <button type="button" class="btn-close fs-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row title text-center">
+                                                <h1 class="text-uppercase fw-bolder">Project Name</h1>
+                                                <span class="lead"><em>Lorem ipsum dolor sit amet consectetur</em></span>
+                                            </div>
+                                            <div class="image">
+                                                <img src="img/portfolio/2.jpg" alt="">
+                                            </div>
+                                            <p class="text col-7 m-auto text-center">
+                                                Use this area to describe your projects. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate harum, adipisicing elit. Voluptate harum, sit quibusdam mollitia doloribus laborum aliquam velit praesentium maxime iusto ex. Repudiandae deserunt rem aliquid eligendi. Reiciendis vero ipsa ea.
+                                            </p>
+                                            <div class="mt-4 text-center">
+                                                <p class="mb-1"><span class="fw-bolder">Client:</span> Threads</p>
+                                                <span><span class="fw-bolder">Category:</span> Illustration</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer border-top-0 mt-3">
+                                            <button type="button" class="btn px-5 py-3 btn-warning text-white m-auto" data-bs-dismiss="modal">X <span class="fw-bolder">CLOSE PROJECT</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="card text-center">
+                                <div class="image">
+                                    <a href="#hoverModal3" data-bs-toggle="modal" role="button" class="overlay-hover">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
+                                    <img src="img/portfolio/3.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <h4 class="fw-bold mb-0">Threads</h4>
+                                    <span><em>Illustration</em></span>
+                                </div>
+                            </div>
+                            <!-- modal -->
+                            <div class="modal fade" id="hoverModal3" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-fullscreen-xxl-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header border-bottom-0">
+                                            <button type="button" class="btn-close fs-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row title text-center">
+                                                <h1 class="text-uppercase fw-bolder">Project Name</h1>
+                                                <span class="lead"><em>Lorem ipsum dolor sit amet consectetur</em></span>
+                                            </div>
+                                            <div class="image">
+                                                <img src="img/portfolio/3.jpg" alt="">
+                                            </div>
+                                            <p class="text col-7 m-auto text-center">
+                                                Use this area to describe your projects. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate harum, adipisicing elit. Voluptate harum, sit quibusdam mollitia doloribus laborum aliquam velit praesentium maxime iusto ex. Repudiandae deserunt rem aliquid eligendi. Reiciendis vero ipsa ea.
+                                            </p>
+                                            <div class="mt-4 text-center">
+                                                <p class="mb-1"><span class="fw-bolder">Client:</span> Threads</p>
+                                                <span><span class="fw-bolder">Category:</span> Illustration</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer border-top-0 mt-3">
+                                            <button type="button" class="btn px-5 py-3 btn-warning text-white m-auto" data-bs-dismiss="modal">X <span class="fw-bolder">CLOSE PROJECT</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="card text-center">
+                                <div class="image">
+                                    <a href="#hoverModal4" data-bs-toggle="modal" role="button" class="overlay-hover">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
+                                    <img src="img/portfolio/4.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <h4 class="fw-bold mb-0">Threads</h4>
+                                    <span><em>Illustration</em></span>
+                                </div>
+                            </div>
+                            <!-- modal -->
+                            <div class="modal fade" id="hoverModal4" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-fullscreen-xxl-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header border-bottom-0">
+                                            <button type="button" class="btn-close fs-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row title text-center">
+                                                <h1 class="text-uppercase fw-bolder">Project Name</h1>
+                                                <span class="lead"><em>Lorem ipsum dolor sit amet consectetur</em></span>
+                                            </div>
+                                            <div class="image">
+                                                <img src="img/portfolio/4.jpg" alt="">
+                                            </div>
+                                            <p class="text col-7 m-auto text-center">
+                                                Use this area to describe your projects. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate harum, adipisicing elit. Voluptate harum, sit quibusdam mollitia doloribus laborum aliquam velit praesentium maxime iusto ex. Repudiandae deserunt rem aliquid eligendi. Reiciendis vero ipsa ea.
+                                            </p>
+                                            <div class="mt-4 text-center">
+                                                <p class="mb-1"><span class="fw-bolder">Client:</span> Threads</p>
+                                                <span><span class="fw-bolder">Category:</span> Illustration</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer border-top-0 mt-3">
+                                            <button type="button" class="btn px-5 py-3 btn-warning text-white m-auto" data-bs-dismiss="modal">X <span class="fw-bolder">CLOSE PROJECT</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="card text-center">
+                                <div class="image">
+                                    <a href="#hoverModal5" data-bs-toggle="modal" role="button" class="overlay-hover">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
+                                    <img src="img/portfolio/5.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <h4 class="fw-bold mb-0">Threads</h4>
+                                    <span><em>Illustration</em></span>
+                                </div>
+                            </div>
+                            <!-- modal -->
+                            <div class="modal fade" id="hoverModal5" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-fullscreen-xxl-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header border-bottom-0">
+                                            <button type="button" class="btn-close fs-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row title text-center">
+                                                <h1 class="text-uppercase fw-bolder">Project Name</h1>
+                                                <span class="lead"><em>Lorem ipsum dolor sit amet consectetur</em></span>
+                                            </div>
+                                            <div class="image">
+                                                <img src="img/portfolio/5.jpg" alt="">
+                                            </div>
+                                            <p class="text col-7 m-auto text-center">
+                                                Use this area to describe your projects. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate harum, adipisicing elit. Voluptate harum, sit quibusdam mollitia doloribus laborum aliquam velit praesentium maxime iusto ex. Repudiandae deserunt rem aliquid eligendi. Reiciendis vero ipsa ea.
+                                            </p>
+                                            <div class="mt-4 text-center">
+                                                <p class="mb-1"><span class="fw-bolder">Client:</span> Threads</p>
+                                                <span><span class="fw-bolder">Category:</span> Illustration</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer border-top-0 mt-3">
+                                            <button type="button" class="btn px-5 py-3 btn-warning text-white m-auto" data-bs-dismiss="modal">X <span class="fw-bolder">CLOSE PROJECT</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 col-sm-6">
+                            <div class="card text-center">
+                                <div class="image">
+                                    <a href="#hoverModal6" data-bs-toggle="modal" role="button" class="overlay-hover">
+                                        <i class="fa-solid fa-plus"></i>
+                                    </a>
+                                    <img src="img/portfolio/6.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <h4 class="fw-bold mb-0">Threads</h4>
+                                    <span><em>Illustration</em></span>
+                                </div>
+                            </div>
+                            <!-- modal -->
+                            <div class="modal fade" id="hoverModal6" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                                <div class="modal-dialog modal-fullscreen-xxl-down">
+                                    <div class="modal-content">
+                                        <div class="modal-header border-bottom-0">
+                                            <button type="button" class="btn-close fs-1" data-bs-dismiss="modal" aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            <div class="row title text-center">
+                                                <h1 class="text-uppercase fw-bolder">Project Name</h1>
+                                                <span class="lead"><em>Lorem ipsum dolor sit amet consectetur</em></span>
+                                            </div>
+                                            <div class="image">
+                                                <img src="img/portfolio/6.jpg" alt="">
+                                            </div>
+                                            <p class="text col-7 m-auto text-center">
+                                                Use this area to describe your projects. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptate harum, adipisicing elit. Voluptate harum, sit quibusdam mollitia doloribus laborum aliquam velit praesentium maxime iusto ex. Repudiandae deserunt rem aliquid eligendi. Reiciendis vero ipsa ea.
+                                            </p>
+                                            <div class="mt-4 text-center">
+                                                <p class="mb-1"><span class="fw-bolder">Client:</span> Threads</p>
+                                                <span><span class="fw-bolder">Category:</span> Illustration</span>
+                                            </div>
+                                        </div>
+                                        <div class="modal-footer border-top-0 mt-3">
+                                            <button type="button" class="btn px-5 py-3 btn-warning text-white m-auto" data-bs-dismiss="modal">X <span class="fw-bolder">CLOSE PROJECT</span></button>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="title text-center">
+                            <h1 class="fw-bold">ABOUT</h1>
+                            <span class="lead"><em>Lorem ipsum dolor sit amet consectetur</em></span>
+                        </div>
+                    </div>
+                    <div class="row mt-5 px-3">
+                        <ul class="timeline">
+                            <li class="timeline-item col-sm-12">
+                                <div class="content">
+                                    <h3 class="fw-bold">2009-2011</h3>
+                                    <h3 class="fw-bold">Our Humble Beginnings</h3>
+                                    <p class="text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempora ipsa provident aliquam facere, reiciendis doloribus illo minus obcaecati necessitatibus magnam dolore beatae officiis dolores.
+                                    </p>
+                                </div>
+                                <div>
+                                    <div class="image">
+                                        <img src="img/about/1.jpg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-item col-sm-12 right">
+                                <div class="content">
+                                    <h3 class="fw-bold">March 2011</h3>
+                                    <h3 class="fw-bold">An Agency is Born</h3>
+                                    <p class="text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempora ipsa provident aliquam facere, reiciendis doloribus illo minus obcaecati necessitatibus magnam dolore beatae officiis dolores.
+                                    </p>
+                                </div>
+                                <div>
+                                    <div class="image">
+                                        <img src="img/about/2.jpg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-item col-sm-12">
+                                <div class="content">
+                                    <h3 class="fw-bold">December 2015</h3>
+                                    <h3 class="fw-bold">Transition to Full Service</h3>
+                                    <p class="text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempora ipsa provident aliquam facere, reiciendis doloribus illo minus obcaecati necessitatibus magnam dolore beatae officiis dolores.
+                                    </p>
+                                </div>
+                                <div>
+                                    <div class="image">
+                                        <img src="img/about/3.jpg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-item col-sm-12 right">
+                                <div class="content">
+                                    <h3 class="fw-bold">July 2020</h3>
+                                    <h3 class="fw-bold">Phase Two Expansion</h3>
+                                    <p class="text">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam tempora ipsa provident aliquam facere, reiciendis doloribus illo minus obcaecati necessitatibus magnam dolore beatae officiis dolores.
+                                    </p>
+                                </div>
+                                <div>
+                                    <div class="image">
+                                        <img src="img/about/4.jpg" alt="">
+                                    </div>
+                                </div>
+                            </li>
+                            <li class="timeline-item col-sm-12">
+                                <div class="image last-box">
+                                    <span>Be Part</span> 
+                                    <span>Of Our</span> 
+                                    <span>Story!</span>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>'
+        <section class="team">
+            <div class="bg-light">
+                <div class="container">
+                    <div class="row">
+                        <div class="title text-center">
+                            <h1 class="fw-bold">OUR AMAZING TEAM</h1>
+                            <span class="lead"><em>Lorem ipsum dolor sit amet consectetur</em></span>
+                        </div>
+                    </div>
+                    <div class="row mt-4 content g-4">
+                        <div class="col-xl-4 col-lg-4 col-md-12 mb-4">
+                            <div class="card text-center">
+                                <div class="image">
+                                    <img src="img/team/1.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <h4 class="fw-bold">Parveen Anand</h4>
+                                    <span class="text">Lead Designer</span>
+                                </div>
+                                <div class="icon">
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a  href="#"><i class="fa-brands fa-facebook-f mx-3"></i></a  >
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-12 mb-4">
+                            <div class="card text-center">
+                                <div class="image">
+                                    <img src="img/team/2.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <h4 class="fw-bold">Parveen Anand</h4>
+                                    <span class="text">Lead Marketor</span>
+                                </div>
+                                <div class="icon">
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a  href="#"><i class="fa-brands fa-facebook-f mx-3"></i></a  >
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-4 col-lg-4 col-md-12">
+                            <div class="card text-center">
+                                <div class="image">
+                                    <img src="img/team/3.jpg" alt="">
+                                </div>
+                                <div class="text-center p-4">
+                                    <h4 class="fw-bold">Parveen Anand</h4>
+                                    <span class="text">Lead Developer</span>
+                                </div>
+                                <div class="icon">
+                                    <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                                    <a  href="#"><i class="fa-brands fa-facebook-f mx-3"></i></a  >
+                                    <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-12 col-xl-8 col-lg-8  col-md-12 mt-5 m-auto">
+                            <p class="text text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit iure animi quisquam quia reiciendis temporibus aspernatur. Sed quos quaerat aperiam molestias corrupti.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container py-4">
+            <div class="row content g-4">
+                <div class="col-xl-4 col-lg-4 pt-2 col-md-12">
+                    Copyright &copy; Your Website 2023
+                </div>
+                <div class="col-xl-4 col-lg-4 col-md-12 second">
+                    <div class="card">
+                        <div class="icon m-auto">
+                            <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                            <a  href="#"><i class="fa-brands fa-facebook-f mx-3"></i></a  >
+                            <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-4 col-lg-4 pt-2 text-end col-md-12 text-center third">
+                    <a href="#" class="me-3">Privacy Policy</a>
+                    <a href="#">Teams of Use</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/bootstrap.bundle.js"></script>
+    <script type="text/javascript">
+        var navbar = document.querySelector(".navbar")
+        window.onscroll = function() {
+            if ( window.pageYOffset > 20) {
+                navbar.classList.add('scrolled')
+            } else {
+                navbar.classList.remove('scrolled')
+            }
+        }
+    </script>
+</body>
+</html>
